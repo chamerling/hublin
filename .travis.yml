@@ -1,9 +1,8 @@
 language: node_js
 node_js:
-  - '6'
+  - '8'
 before_script:
   - npm install -g bower grunt-cli
-  - cd modules/hublin-easyrtc-connector && npm install --production && cd ../..
 services:
   - mongodb
   - redis
