@@ -7,5 +7,4 @@ services:
   - mongodb
   - redis
 env:
-  - HUBLIN_MONGO_HOST=localhost
-  - HUBLIN_REDIS_HOST=localhost
+  - HUBLIN_MONGO_HOST=localhost HUBLIN_REDIS_HOST=localhost
